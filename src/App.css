@@ -22,16 +22,9 @@
   font-size: large;
 }
 
-
-
-.Navigation ul li {display: inline-block;margin: 0 5px;}
-.Navigation ul li a{padding: 10px 35px;text-transform: uppercase;background: #a9a9a9;}
-
-
-
-
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.container{max-width: 1170px;width: 100%;margin: 0 auto;}

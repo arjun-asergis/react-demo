@@ -1,0 +1,30 @@
+.Header{width: 100%;float: left;position: relative;}
+.App-header{width: 100%;float: left;height: auto;padding: 0;}
+.Navigation{width: 100%;float: left;}
+.Navigation ul{    width: 100%;
+  float: left;
+  text-align: center;
+  height: auto;
+  padding: 0;
+  margin: 0;}
+.Navigation li{display: inline-block;margin: 0 15px;}
+.Navigation li a{    color: #212121;    display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
+  background: #a9a9a9;
+  padding: 5px 15px;}
+.logo{float: left;width: 20%;}
+.navigation{width: 70%;float: left;}
+.loginBtn{position: absolute;right:0;}
+.loginBtn a{color: #212121; text-transform: uppercase;font-size: 20px;}
+
+.contactPage{width: 100%;float: left;    min-height: 450px;
+  line-height: 450px;}
+.AboutPage{width: 100%;float: left;    min-height: 450px;
+  line-height: 450px;}
+
+  .galleryPage{width: 100%;float: left;  padding: 150px 0;
+    }
+.galleryPage ul li{line-height: 18px;}
+
+.LinkPage {width: 100%;float: left; padding: 150px 0;}
