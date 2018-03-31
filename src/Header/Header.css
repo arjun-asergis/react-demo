@@ -18,13 +18,38 @@
 .loginBtn{position: absolute;right:0;}
 .loginBtn a{color: #212121; text-transform: uppercase;font-size: 20px;}
 
-.contactPage{width: 100%;float: left;    min-height: 450px;
-  line-height: 450px;}
-.AboutPage{width: 100%;float: left;    min-height: 450px;
-  line-height: 450px;}
+.contactPage{width: 100%;float: left;    min-height: 100%;background: red;
 
-  .galleryPage{width: 100%;float: left;  padding: 150px 0;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+
+
+
+}
+
+.contactPage input{
+ height:48px;   
+}
+.AboutPage{width: 100%;float: left;     min-height: 100%; background: green;
+  line-height: 450px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+
+}
+
+  .galleryPage{width: 100%;float: left;    height: 100%;  padding: 150px 0;background: yellow;
+    transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+
     }
 .galleryPage ul li{line-height: 18px;}
 
-.LinkPage {width: 100%;float: left; padding: 150px 0;}
+.LinkPage {width: 100%;float: left;    height: 100vh; padding: 150px 0;background: yellowgreen;}
+
+html,.App,#root,body{height: 100%;}

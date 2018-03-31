@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
-import Link1 from '../Link1/Link1';
-import Link2 from '../Link2/Link2';
-import Link3 from '../Link3/Link3';
+import {Link} from "react-router-dom";
+
 
 
 class Gallery extends Component {
@@ -16,16 +14,7 @@ class Gallery extends Component {
           <li> <Link to={'Link3'}>Link3</Link>  </li>
         </ul>
 
-        <Router>
-      <div className="submenu"> 
-
-        <Switch>             
-          <Route path="/link1" component={Link1} />
-          <Route path="/link2" component={Link2} />      
-          <Route path="/link3" component={Link3} /> 
-        </Switch>
-      </div>
-      </Router>
+       
       </div>
     );
   }
