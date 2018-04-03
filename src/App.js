@@ -15,7 +15,7 @@ import Home from './Home'
 import Link1 from './Link1/Link1';
 import Link2 from './Link2/Link2';
 import Link3 from './Link3/Link3';
-import A from './A/A';
+//import B from './B/B';
 
 class App extends Component {
   render() {
@@ -44,9 +44,7 @@ class App extends Component {
 
 
         </Switch>
-        <div className="hello">
-        <A />
-        </div>
+       
        
         
         <Footer />

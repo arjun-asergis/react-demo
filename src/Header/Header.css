@@ -53,3 +53,4 @@
 .LinkPage {width: 100%;float: left;    height: 100vh; padding: 150px 0;background: yellowgreen;}
 
 html,.App,#root,body{height: 100%;}
+.footer{position: relative;}

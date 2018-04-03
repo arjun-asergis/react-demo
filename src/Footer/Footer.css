@@ -1,4 +1,4 @@
-.footer{width: 100%;float: left;position:fixed;bottom: 0;}
+.footer{width: 100%;float: left;position: relative;;bottom: 0;}
 .footer{width: 100%;float: left;    background: #d0a9a9;}
 .footer ul{    width: 100%;
   float: left;

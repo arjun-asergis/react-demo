@@ -28,12 +28,15 @@
 }
 
 .container{max-width: 1170px;width: 100%;margin: 0 auto;}
-.homePage{background: grey;height: 100%;    float: left;
+.homePage{background: grey;    float: left;
   width: 100%;}
 
   .hello{
     width: 100%;
     float: left;
-    position: absolute;
-    top: 150px;
+ 
+  }
+
+  .ReactTable.-striped.-highlight{
+    background: #fff;width: 100%;float: left;
   }

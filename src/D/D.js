@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 
 //import './App.css';
 
-const childDataN = [9,8,7,6,5,4,3,2,1];
+const childDataN = [1,2,3,4,5,6,7,8,9,10];
 
 class D extends Component {
     constructor(props) {
@@ -17,23 +17,19 @@ class D extends Component {
         };
     }
 
-
-    showChildData = (e) => {
-        //console.log(e.target.value);
-        e.preventDefault;
-        this.setState({
-             fieldVal: childDataN 
-         })
-       
-      return this.state.fieldVal
-      };
+    demoMethod = () => {
+    this.props.sendData(childDataN)
+    //console.log(childDataN)
+    }
 
     showparentData = () => {
         this.setState({show: this.props.parentData})
         console.log( this.state.show)
     }
-    render() {
-       
+
+
+
+    render() {       
 
         return (
             <div>{this.props.showparentData}
@@ -41,8 +37,8 @@ class D extends Component {
                 <p>{this.state.show}</p>
             
 
-            {this.props.showChildData}
-            <button onClick={this.showChildData}>show child data to parent component</button>
+            {this.props.demoMethod}
+            <button onClick={this.demoMethod}>show child data to parent component</button>
             
            
              
